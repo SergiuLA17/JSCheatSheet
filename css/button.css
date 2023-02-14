@@ -21,14 +21,17 @@ body {
   font-family: "Open Sans";
   text-transform: uppercase;
 }
+
 .btn-flip:hover:after {
   opacity: 1;
   transform: translateY(0) rotateX(0);
 }
+
 .btn-flip:hover:before {
   opacity: 0;
   transform: translateY(50%) rotateX(90deg);
 }
+
 .btn-flip:after {
   top: 0;
   left: 0;
@@ -43,6 +46,7 @@ body {
   content: attr(data-back);
   transform: translateY(-50%) rotateX(90deg);
 }
+
 .btn-flip:before {
   top: 0;
   left: 0;
@@ -59,4 +63,6 @@ body {
   transform: translateY(0) rotateX(0);
 }
 
-/*# sourceMappingURL=button.scss.map */
+
+
+/*# sourceMappingURL=button.css.map */
