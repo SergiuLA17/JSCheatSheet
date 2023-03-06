@@ -10,7 +10,7 @@ body {
   box-sizing: border-box;
   margin: 10%;
   border-radius: 22px ;
-  box-shadow: 0 1.5em 85px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1.5em 85px 0 rgba(185, 171, 171, 0.2);
 }
 .accordionItem {
   float: left;
@@ -86,4 +86,10 @@ body {
   border-bottom-left-radius: 0px; 
   background-color: #49728c; /* цвет фона */
   color: #e8f0f1; /* цвет текста */
+}
+
+.codeStyle {
+  text-align: left;
+  display: inline-block;
+
 }
